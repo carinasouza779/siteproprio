@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:linear-gradient(120deg, #64b1cf, #054150);
+    color:#d8d6d6;
+    flex-direction:column;
+    align-items:center;
+    display: flex;
+}
+header{
+    text-align: center;
+    padding: 30px;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #0c5457;
+}
+
+header h1{
+    margin: 15px;
+    font-size: 25px;
+}
+header p{
+    margin: 2px;
+    font-size: 16px;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+.card {
+    background-color : #669ca3;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform  0.2s ease;
+    
+}
+.card:hover{
+    transform:scale(1.05);
+}
+.card h2{
+
+}
+.card a{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #d0dddcbd;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+footer{
+    margin: 30px 0px;
+    font-size: 14px;
+}
+
+.caixinha {
+    background-color : #669ca3;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform  0.2s ease;
+    
+}
+.caixinha:hover{
+    transform:scale(1.05);
+}
+.caixinha h2{
+
+}
+.caixinha a{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #d0dddcbd;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+
+}.caixao {
+    background-color : #669ca3;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform  0.2s ease;
+    
+}
+.caixao:hover{
+    transform:scale(1.05);
+}
+.caixao h2{
+
+}
+.caixao a{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #d0dddcbd;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.blocos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #6995a0;
+    padding: 2px 20px;
+    border-radius: 25px;
+    margin: 20px;
+}
+.blocos:hover{
+    transform:scale(1.05);
+}
+
+.blocos a{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #d0dddcbd;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
